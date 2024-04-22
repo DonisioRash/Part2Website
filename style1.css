@@ -6,7 +6,16 @@ body
     background-color: black;
     color: white;
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.logo
+{
+    position: relative;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 a
@@ -32,6 +41,11 @@ header a
     margin-right: 40px;
 }
 
+header :hover,
+header .active
+{
+    color: #f1683a;
+}
 
 /*carousel*/
 
