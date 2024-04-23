@@ -12,7 +12,7 @@ prevDom.onclick = function(){
 }
 
 let timeRunning = 3000;
-let timeAutoNext = 10000;
+let timeAutoNext = 30000;
 let runTimeOut;
 let runAutoRun = setTimeout(()=>{
     nextDom.click();
