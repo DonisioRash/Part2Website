@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  
+  body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+  }
+
+  .header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    padding: 40px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo
+{
+    position: relative;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.navbar a
+{
+    font-size: 14px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 55px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active
+{
+    color:#18c741;
+}
+  
+.container1
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 69vh;
+}
+
+.container
+{
+    width: 800px;
+    max-width: 400px;
+    background-color: rgb(233, 224, 224);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 2px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: rgba(4, 201, 4, 0.548);
+    border: 5px solid rgba(0, 255, 0, 0.548) ;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: rgb(6, 46, 8);
+    outline: none;
+}
+
+.btn:hover {
+    border-color: rgb(16, 212, 42);
+
+}
