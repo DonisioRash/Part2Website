@@ -94,6 +94,52 @@ body
     height: 50px;
 }
 
+.aboutus
+{
+    height: 100vh;
+    background: url(image/aboutus.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.aboutus-content
+{
+    max-width: 600px;
+}
+
+.aboutus-content h1
+{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.aboutus-content h3 
+{
+    font-size: 32px;
+    font-weight: 700;
+    color: #18c741;
+}
+
+.aboutus-content p
+{
+    font-size: 16px;
+    margin: 20px 0 40px;
+
+}
+
+.aboutus-content .btn-box
+{
+    display: flex;
+    justify-content: space-between;
+    width:  345px;
+    height: 50px;
+}
+
+
 .btn-box a
 {
     position: relative;
